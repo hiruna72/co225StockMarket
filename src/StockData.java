@@ -9,6 +9,7 @@ public class StockData implements AccessStockData{
 		private HashMap<String,ArrayList<String>> results;
 	 StockData() {
     	results = new HashMap<String, ArrayList<String>>();
+		 //change path
         String csvFile = "C:/Hiruna/eclipse/workLoad/co225Project2/src/stocks.csv";
         String line = "";
         String cvsSplitBy = ",";
