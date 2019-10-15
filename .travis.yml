@@ -1,4 +1,6 @@
 language: c
+arch:
+  - arm64
 compiler: gcc
 script: chmod +x ./run.sh; ./run.sh
      
