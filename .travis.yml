@@ -1,3 +1,4 @@
-language: bash
-script: 
-  - bash run.sh
+language: c
+compiler: gcc
+script: chmod +x ./run.sh; ./run.sh
+     
