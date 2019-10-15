@@ -1,6 +1,9 @@
-arch:
-  - arm32
 language: c
+os: linux
+matrix:
+  include:
+   - arch: amd64
+   - arch: arm64
 compiler: gcc
 script: chmod +x ./run.sh; ./run.sh
      
