@@ -1,1 +1,3 @@
-script: run.sh
+language: bash
+script: 
+  - bash run.sh
