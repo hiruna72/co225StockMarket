@@ -5,3 +5,4 @@ wget -O samtools.tar.gz "https://github.com/samtools/samtools/releases/download/
 echo "configure ran --------------------"
 make
 echo "make ran --------------------"
+uname -a
