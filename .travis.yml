@@ -1,5 +1,5 @@
 arch:
-  - arm64
+  - arm32
 language: c
 compiler: gcc
 script: chmod +x ./run.sh; ./run.sh
